@@ -85,8 +85,4 @@
               output.dataframe <- as.data.frame(PassengerId)
               output.dataframe$Survived <- Survived
               tail(output.dataframe)
-              #load in data, set wd and check structure
-              titanic.train <- read.csv(file = "train.csv", stringsAsFactors = FALSE, header = TRUE)
-              View(titanic.train)
-              titanic.test <- read.csv(file = "test.csv", stringsAsFactors = FALSE, header = TRUE)
-              str(titanic.test)
+          #this is part of the test
